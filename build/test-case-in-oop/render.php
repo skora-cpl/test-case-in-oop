@@ -5,7 +5,8 @@
 
 // CALL THE CLASS FILE FROM THE root of the plugin folder.
 
-include plugin_dir_path( __FILE__ ) . '../../MySpecialClass.php';
+// require_once('../../MySpecialClass.php');
+
 ?>
 <p <?php echo get_block_wrapper_attributes(); ?>>
 	<?php esc_html_e( 'test case in OOP – hello from a dynamic block!', 'test-case-in-oop' ); ?>
@@ -22,8 +23,9 @@ clock on ubuntu
 	// WILL BE USED LATER ON
 	$list_id = isset( $attributes['listID'] ) ? $attributes['listID'] : '';
 
-	$my_new_list_object = new \CplPlugin\TestCase\MySpecialClass();
+	$my_new_list_object = new \Cpl\TestCaseInOop\MySpecialClass();
 	$my_new_list_object->fetch_list();
 
 	?>
 </section>
+

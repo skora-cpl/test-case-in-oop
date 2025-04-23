@@ -1,0 +1,15 @@
+{
+    "name": "cpl/test-case-in-oop",
+    "autoload": {
+        "psr-4": {
+            "Cpl\\TestCaseInOop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Will Skora",
+            "email": "175735853+skora-cpl@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}

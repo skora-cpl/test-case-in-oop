@@ -1,6 +1,6 @@
 <?php
 
-namespace CplPlugin\TestCase;
+namespace Cpl\TestCaseInOop;
 
 final class MySpecialClass {
 
