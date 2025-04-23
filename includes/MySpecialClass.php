@@ -18,10 +18,12 @@ final class MySpecialClass {
 	// }
 
 	// returns an array, teh_request
-	public function fetch_list() {
+	public function display_time() {
 		echo 'successfully fetched list';
 
 		$the_stored_time = date( 'l jS \of F Y h:i:s A' );
+
+		echo $the_stored_time;
 
 		// set_transient( 'transient-stored-time', $the_stored_time, 140 );
 	}

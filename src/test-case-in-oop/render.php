@@ -24,7 +24,7 @@ clock on ubuntu
 	$list_id = isset( $attributes['listID'] ) ? $attributes['listID'] : '';
 
 	$my_new_list_object = new \Cpl\TestCaseInOop\MySpecialClass();
-	$my_new_list_object->fetch_list();
+	$my_new_list_object->display_time();
 
 	?>
 </section>

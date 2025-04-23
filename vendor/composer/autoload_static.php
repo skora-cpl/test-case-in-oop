@@ -16,12 +16,13 @@ class ComposerStaticInit5fd80c7d62d2b0b65780cd50af6a230c
     public static $prefixDirsPsr4 = array (
         'Cpl\\TestCaseInOop\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/includes',
         ),
     );
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Cpl\\TestCaseInOop\\MySpecialClass' => __DIR__ . '/../..' . '/includes/MySpecialClass.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

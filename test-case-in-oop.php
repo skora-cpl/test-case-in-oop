@@ -14,9 +14,7 @@
  */
 
 
-require_once(plugin_dir_path(__FILE__) . '/vendor/autoload.php');
-
-// require_once dirname(__FILE__)."/vendor/autoload.php";
+require_once dirname(__FILE__)."/vendor/autoload.php";
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.

@@ -2,13 +2,13 @@
     "name": "cpl/test-case-in-oop",
     "autoload": {
         "psr-4": {
-            "Cpl\\TestCaseInOop\\": "src/"
+            "Cpl\\TestCaseInOop\\": "includes/"
         }
     },
     "authors": [
         {
             "name": "Will Skora",
-            "email": "175735853+skora-cpl@users.noreply.github.com"
+            "email": "website@cpl.org"
         }
     ],
     "require": {}
