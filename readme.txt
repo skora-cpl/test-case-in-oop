@@ -6,8 +6,6 @@ Stable tag:        0.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Example block scaffolded with Create Block tool.
-
 == Description ==
 
 This is a pretty simple proof of concept of a dynamic WordPress block created using create-block (https://developer.wordpress.org/block-editor/reference-guides/packages/packages-create-block/) while also using OOP (object-oriented programming). 
@@ -78,15 +76,10 @@ namespace Cpl\TestCaseInOop;
 
 5. run composer dump-autoload -o 
 this will update the classes that are being used; and now you can 
-If you create another file and class; you will need to run this command again. s
+If you create another file and class; you will need to run this command again.
 
-6. run `npm run start` and your code is 
+6. run `npm run start` and begin working with your block. 
 
-
-
-= What about foo bar? =
-
-Answer to foo bar dilemma.
 
 == Screenshots ==
 
